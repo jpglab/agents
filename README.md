@@ -4,15 +4,19 @@ help agents write code for humans
 
 A huge thank you goes out to [CodeAesthetic](https://www.youtube.com/@CodeAesthetic) on Youtube, from which most of these excellent design and architecture decisions were inspired. support him via:
 
-- [youtube](https://www.youtube.com/@CodeAesthetic)
 - [codeaesthetic.io](https://codeaesthetic.io): free & paid courses & playgrounds
+- [youtube](https://www.youtube.com/@CodeAesthetic)
 - [patreon](https://www.patreon.com/codeaesthetic)
 
 # vibe coding speedrun checklist
 
 DOs:
+- [ ] DO approach vibe coding like you are learning a new language - it is a buildable skill that takes practice
+- [ ] DO write 500-1000+ line prompts
+- [ ] DO ask agents to help you improve your prompts before submitting the final one
 - [ ] DO define an `AGENTS.md` which specifies your high-level system design goals
 - [ ] DO remind your agent to explicitly refer to `AGENTS.md` in every prompt before continuing
+- [ ] DO end your sessions and start new ones frequently
 - [ ] DO break large tasks into small chunks
 - [ ] DO be as specific in your expectations as possible
 - [ ] DO include both a "macro" goal (broader vision we are working towards) as well as a "micro" goal (this is specifically what I want you to accomplish at this stage)
@@ -28,6 +32,10 @@ DOs:
 - [ ] DO remind agents to be honest when things are not working
 - [ ] DO remind agents that pre-celebration, self-promotion, and self-aggrandizing are not helpful
 - [ ] DO remind agents that we are not implementing a "mock", "stub", "partial", "sample", or "example" solution to revisit later
+- [ ] DO periodically take a step back if you find yourself in an error/debugging loop - have you provided enough context?
+- [ ] DO modify your original prompt and start from a clean working slate rather than sending 10 additional prompts in the same session
+- [ ] DO encourage agents to brainstorm 3 or more potential root causes of an issue and test each one independently
+- [ ] DO encourage agents to be extremely verbose in logging
 
 DO NOTs:
 - [ ] DO NOT approach a large task with a prompt like "migrate this to TypeScript" or "refactor the repo"
@@ -35,4 +43,5 @@ DO NOTs:
 - [ ] DO NOT expect that a larger context window will fix all your problems
 - [ ] DO NOT allow agents to pollute your workspace with noise or any documentation that may be partially incorrect/misleading
 - [ ] DO NOT assume agents will remember context or notes/tools/`AGENTS.md` from previous conversations exist without explicitly restating it
+- [ ] DO NOT obsess over token cost unless you are an open sourcer or bootstrapper
  
