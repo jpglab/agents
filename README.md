@@ -14,6 +14,7 @@ DOs:
 - [ ] DO approach vibe coding like you are learning a new language - it is a buildable skill that takes practice
 - [ ] DO write 500-1000+ line prompts
 - [ ] DO ask agents to help you improve your prompts before submitting the final one
+- [ ] DO choose popular tools like React and Next.js over more niche or newer frameworks that do not have a wealth of knowledge or troubleshooting yet
 - [ ] DO define an `AGENTS.md` which specifies your high-level system design goals
 - [ ] DO remind your agent to explicitly refer to `AGENTS.md` in every prompt before continuing
 - [ ] DO end your sessions and start new ones frequently
