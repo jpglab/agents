@@ -36,6 +36,8 @@ DOs:
 - [ ] DO modify your original prompt and start from a clean working slate rather than sending 10 additional prompts in the same session
 - [ ] DO encourage agents to brainstorm 3 or more potential root causes of an issue and test each one independently
 - [ ] DO encourage agents to be extremely verbose in logging
+- [ ] DO ask agents to use a two-step process when replicating existing behavior: first explain the existing implementation, then use those docs to implement it
+- [ ] DO ask agents to be critical about small differences between two approaches where one is working and one is broken
 
 DO NOTs:
 - [ ] DO NOT approach a large task with a prompt like "migrate this to TypeScript" or "refactor the repo"
