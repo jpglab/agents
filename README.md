@@ -25,6 +25,9 @@ DOs:
 - [ ] DO use tools like [basic memory](https://github.com/basicmachines-co/basic-memory?tab=readme-ov-file) that allow agents to maintain a running knowledge base
 - [ ] DO create templates for common prompt patterns you use repeatedly
 - [ ] DO periodically test different models and compare their strengths/weaknesses
+- [ ] DO remind agents to be honest when things are not working
+- [ ] DO remind agents that pre-celebration, self-promotion, and self-aggrandizing are not helpful
+- [ ] DO remind agents that we are not implementing a "mock", "stub", "partial", "sample", or "example" solution to revisit later
 
 DO NOTs:
 - [ ] DO NOT approach a large task with a prompt like "migrate this to TypeScript" or "refactor the repo"
